@@ -134,7 +134,7 @@ task.spawn(function()
     while true and task.wait(.5) do
         if AllowRunService == true then
             local ohString1 = "SetTeam"
-            local ohString2 = ""
+            local ohString2 = "Pirates"
 
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(ohString1, ohString2)
         end
